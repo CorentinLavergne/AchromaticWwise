@@ -40,12 +40,13 @@
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\a\AchromaticWwise\Triggers\Default Work Unit.wwu" DateLow="1554481401" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\a\AchromaticWwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1554481401" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\a\AchromaticWwise\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1554307425" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\AchromaticWwise.Pc.wsettings" DateLow="1554481493" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\AchromaticWwise.Pc.wsettings" DateLow="1554489331" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\AchromaticWwise.wproj" DateLow="1554484398" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1554481401" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1554487036" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1554481426" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1554307418" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1554307376" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Actor-Mixer Hierarchy\TestWorkUnit.wwu" DateLow="1554487263" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Attenuations\Default Work Unit.wwu" DateLow="1554481401" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Audio Devices\Default Work Unit.wwu" DateLow="1554481401" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1554481401" DateHigh="0"/>
@@ -63,7 +64,7 @@
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1554307446" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1554307447" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Effects\Factory McDSP Effects.wwu" DateLow="1554307433" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Events\Default Work Unit.wwu" DateLow="1554481401" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Events\Default Work Unit.wwu" DateLow="1554487263" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Game Parameters\Default Work Unit.wwu" DateLow="1554481401" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Game Parameters\Factory Motion.wwu" DateLow="1554307432" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Pc\Documents\ENJMIN\ProjetM1\Achromatic\AchromaticWwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1554307418" DateHigh="0"/>
