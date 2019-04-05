@@ -3,6 +3,8 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{DCBB9B54-E7F3-48AA-AF60-5DFA3016C432}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Pc\Music\RenderTheHouse"/>
+				<Property Name="Event Action List\{E3ECEAD4-905E-4E27-9FA7-058C336DF11E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
