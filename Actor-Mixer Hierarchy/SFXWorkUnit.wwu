@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="SFXWorkUnit" ID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Objects" ID="{0591D762-878D-43A2-80C5-03A8147B3196}" ShortID="750625236">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="POSER" ID="{1C8ED18D-0139-4FE1-A5D2-688C1A6EE2D6}" ShortID="546558300">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="POSER" ID="{0EBCB227-6613-4703-9062-EE3D5C5E33A1}" ShortID="1009810986">
+									<Language>SFX</Language>
+									<AudioFile>POSER.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="POSER" ID="{0EBCB227-6613-4703-9062-EE3D5C5E33A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PRENDRE" ID="{9C1CD3F6-48C1-4601-AA25-93790C4922AB}" ShortID="194652511">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PRENDRE" ID="{0D1D67DE-8F3C-4B8E-890D-8F9AB6F2F449}" ShortID="210629628">
+									<Language>SFX</Language>
+									<AudioFile>PRENDRE.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PRENDRE" ID="{0D1D67DE-8F3C-4B8E-890D-8F9AB6F2F449}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Stores" ID="{FB13C535-2C18-45D6-ADF4-1ACF6D123A9C}" ShortID="408479802">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="StoreFerme" ID="{3D6B2982-BF8A-4523-AE84-BE0EAC1BEBAD}" ShortID="210525642">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="STORE FERME-001" ID="{C89CFAD2-1971-4CA4-BB94-A02881ABFA14}" ShortID="139803720">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="STORE FERME-001" ID="{B7F22DF2-6CA5-4C23-AF12-33073B4DF52E}" ShortID="818942271">
+											<Language>SFX</Language>
+											<AudioFile>STORE FERME-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="STORE FERME-001" ID="{B7F22DF2-6CA5-4C23-AF12-33073B4DF52E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="STORE FERME-002" ID="{F327F014-04DC-4288-AF5A-967D23DE2E07}" ShortID="439972117">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="STORE FERME-002" ID="{C48CC231-AC0B-4BD8-A948-A1900B300449}" ShortID="567844903">
+											<Language>SFX</Language>
+											<AudioFile>STORE FERME-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="STORE FERME-002" ID="{C48CC231-AC0B-4BD8-A948-A1900B300449}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="StoreOuvre" ID="{559A3E87-8F2D-4E60-8D4A-34AF22EA632E}" ShortID="1035576558">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="STORE OUVERT-001" ID="{09FAC5F1-2456-468A-A92C-6084209FC570}" ShortID="336000755">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="STORE OUVERT-001" ID="{EC6CCC2A-2CBB-49D4-BE3D-0813DB788D2B}" ShortID="408457289">
+											<Language>SFX</Language>
+											<AudioFile>STORE OUVERT-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="STORE OUVERT-001" ID="{EC6CCC2A-2CBB-49D4-BE3D-0813DB788D2B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="STORE OUVERT-002" ID="{6842AC5E-FFEF-4081-A961-2AF2B8F2B448}" ShortID="151568620">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="STORE OUVERT-002" ID="{7DB8650F-E919-448A-B963-BD65EAD93ED4}" ShortID="699570814">
+											<Language>SFX</Language>
+											<AudioFile>STORE OUVERT-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="STORE OUVERT-002" ID="{7DB8650F-E919-448A-B963-BD65EAD93ED4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
