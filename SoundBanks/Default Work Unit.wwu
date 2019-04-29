@@ -3,9 +3,14 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{33DB3154-ABE0-49CE-A36A-5C955DA577D1}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Test" ID="{C4FA038D-3408-4E91-B179-85F729118AC9}">
+				<SoundBank Name="MainSoundbank" ID="{C4FA038D-3408-4E91-B179-85F729118AC9}">
 					<ObjectInclusionList>
-						<ObjectRef Name="test" ID="{4312E829-6E21-430A-A45C-C7F5171E9D30}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Prendre" ID="{FE235E3E-96B0-40E2-BEF4-402E47298B78}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_StoreOuvre" ID="{15F33E76-A62E-41AC-BCE5-A9714FEE4D4B}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StartMusic" ID="{64A958BC-646A-4331-B894-18FE1E68CBCB}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_StoreFerme" ID="{61E7A9AD-7CB0-489B-B500-34AD5882A824}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ambient" ID="{1B12B2EB-3408-4A0C-9881-A2F0023C9F54}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Poser" ID="{351FD360-CAEE-4E50-B45E-B67467861DEA}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

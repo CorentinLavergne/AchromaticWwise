@@ -3,12 +3,67 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="test" ID="{4312E829-6E21-430A-A45C-C7F5171E9D30}">
+				<Event Name="Play_StoreFerme" ID="{61E7A9AD-7CB0-489B-B500-34AD5882A824}">
 					<ChildrenList>
-						<Action Name="" ID="{87C1737A-F2D8-4D9B-BBF8-52F5504DC455}" ShortID="35783598">
+						<Action Name="" ID="{7B8551A1-1438-4AA6-AB24-2E141F977DBF}" ShortID="392660718">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Tonnerre" ID="{0F85719A-1E26-4CC1-8AF8-56CCB21D62F1}" WorkUnitID="{F194DA26-C67C-4089-B980-494C9B0D13F7}"/>
+									<ObjectRef Name="StoreFerme" ID="{3D6B2982-BF8A-4523-AE84-BE0EAC1BEBAD}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_StoreOuvre" ID="{15F33E76-A62E-41AC-BCE5-A9714FEE4D4B}">
+					<ChildrenList>
+						<Action Name="" ID="{B300E819-0AD9-4348-8E20-1206C7E33211}" ShortID="316483944">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StoreOuvre" ID="{559A3E87-8F2D-4E60-8D4A-34AF22EA632E}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Poser" ID="{351FD360-CAEE-4E50-B45E-B67467861DEA}">
+					<ChildrenList>
+						<Action Name="" ID="{8DFD81C0-2BFA-4005-86C6-AA6731430629}" ShortID="207266657">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="POSER" ID="{1C8ED18D-0139-4FE1-A5D2-688C1A6EE2D6}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Prendre" ID="{FE235E3E-96B0-40E2-BEF4-402E47298B78}">
+					<ChildrenList>
+						<Action Name="" ID="{7E681E8F-905F-405D-8B23-9A6A1D3AE25B}" ShortID="307383048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PRENDRE" ID="{9C1CD3F6-48C1-4601-AA25-93790C4922AB}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambient" ID="{1B12B2EB-3408-4A0C-9881-A2F0023C9F54}">
+					<ChildrenList>
+						<Action Name="" ID="{73144F4C-D4D4-4C1D-80BC-167EB8439F45}" ShortID="931765917">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient" ID="{E5FCCDF0-ED3C-4311-A027-49761387361F}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartMusic" ID="{64A958BC-646A-4331-B894-18FE1E68CBCB}">
+					<ChildrenList>
+						<Action Name="" ID="{5C1D0394-826B-42F3-9C7C-E63C380239B3}" ShortID="1054190350">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicSwitch" ID="{FDBCAB6C-BDB5-4A0D-A394-C313F31FD08F}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
