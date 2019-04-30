@@ -344,12 +344,12 @@
 						</MusicTransition>
 					</TransitionList>
 					<ArgumentList>
-						<ArgumentRef Name="Navigation" ID="{0519C1D8-D4F2-4432-BFCB-D1145ADCEB60}"/>
+						<ArgumentRef Name="Navigation" ID="{BDACB7E6-6807-4C9C-A058-8816580734C1}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Ingame" ID="{BDB3D79D-0B90-4765-94BD-24D4666E5D59}"/>
+								<PathElementRef Name="Ingame" ID="{CE357E71-FBC9-4B1A-9DF3-8D99479308EC}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Ingame" ID="{62919D3E-5DF8-4F50-B6E2-DD0CFE44C8B8}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}" Platform="Linked"/>
@@ -357,10 +357,18 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Menu" ID="{7F31A694-3814-43AB-8A5B-D52F0100CC2E}"/>
+								<PathElementRef Name="Menu" ID="{30A95CC4-5E18-4A11-B2FB-E2BF4BF008CB}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Menu" ID="{A61B3EE4-185E-498E-BA0F-E3B636AE3656}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{91434B82-3BAE-42D9-9B2A-E1E80323595D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
