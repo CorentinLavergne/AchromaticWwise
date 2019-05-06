@@ -9,6 +9,20 @@
 							<ObjectRef Name="System" ID="{B79FF5CF-38FF-4B48-BF90-95471675F5A8}" WorkUnitID="{F94C678E-3342-49A4-9DC7-A995C8D789EB}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambient" ID="{0776579B-CDE2-4C92-A023-C13AC7E37FC8}">
+							<ChildrenList>
+								<Bus Name="TV_EMIT" ID="{A2F8BC05-DFF1-463C-921A-2E55F196162F}">
+									<PropertyList>
+										<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="TV_STATIC" ID="{A21E1EAC-49CA-47D2-9632-38F8BD7D46CB}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="SFX" ID="{535FD0A0-BDBE-4BFB-AD28-BBBE71C38F1C}"/>
+						<Bus Name="Music" ID="{36EDE414-5B1C-45DD-922F-15D7ECFE2A34}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
