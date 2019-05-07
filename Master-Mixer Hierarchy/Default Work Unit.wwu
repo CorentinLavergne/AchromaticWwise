@@ -14,27 +14,96 @@
 							<ChildrenList>
 								<Bus Name="TV_EMIT" ID="{A2F8BC05-DFF1-463C-921A-2E55F196162F}">
 									<PropertyList>
-										<Property Name="MaxDuckVolume" Type="Real64" Value="-10.5"/>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="0"/>
 										<Property Name="RecoveryTime" Type="Real64" Value="0"/>
 									</PropertyList>
-									<DuckingList>
-										<DuckItem>
-											<BusRef Name="TV_STATIC" ID="{A21E1EAC-49CA-47D2-9632-38F8BD7D46CB}"/>
-											<DuckingParam>
-												<Volume>-13</Volume>
-												<FadeInTime>0</FadeInTime>
-												<FadeOutTime>0</FadeOutTime>
-												<FadeCurve>FadeLinear</FadeCurve>
-												<TargetProp>BusVolume</TargetProp>
-											</DuckingParam>
-										</DuckItem>
-									</DuckingList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_Meter_(Custom)" ID="{CD64D03C-D164-4006-A2CB-404BA019E0F5}" ShortID="674224535" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+													<PropertyList>
+														<Property Name="AttackTime" Type="Real32" Value="0.05"/>
+														<Property Name="MeterMode" Type="int32" Value="1"/>
+														<Property Name="Min" Type="Real32" Value="-48.2"/>
+														<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
+													</PropertyList>
+													<PluginData>
+	<GameParameter Name="TVSideChain" ID="{D0FD085B-ED9F-423D-B3EC-170835EAF9FA}"/>
+</PluginData>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 								</Bus>
-								<Bus Name="TV_STATIC" ID="{A21E1EAC-49CA-47D2-9632-38F8BD7D46CB}"/>
+								<Bus Name="TV_STATIC" ID="{A21E1EAC-49CA-47D2-9632-38F8BD7D46CB}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{7BB9050C-DD1A-40BA-867E-BC82E7148836}" ShortID="364635939">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="TVSideChain" ID="{D0FD085B-ED9F-423D-B3EC-170835EAF9FA}" WorkUnitID="{78554DE0-354C-495A-A4B3-B2567860F9CF}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{971BF897-2929-4B46-A3D1-E3B903547486}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0.05527</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-44.94044</XPos>
+																<YPos>0.01838</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-35.10971</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList/>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="SFX" ID="{535FD0A0-BDBE-4BFB-AD28-BBBE71C38F1C}"/>
 						<Bus Name="Music" ID="{36EDE414-5B1C-45DD-922F-15D7ECFE2A34}"/>
+						<Bus Name="SFXAuro" ID="{DAEEFF07-CF35-4A7D-B39C-2C02BA4CB03A}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>528</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Auro_Headphone_(Custom)" ID="{4AD084A0-C1E6-4E53-BBFA-3B455E073665}" ShortID="460852095" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+											<PropertyList>
+												<Property Name="Reverb" Type="bool" Value="False"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

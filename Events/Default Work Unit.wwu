@@ -69,6 +69,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_RandomFloor" ID="{4822F49D-7180-40CE-853C-249324EF4606}"/>
+				<Event Name="Player_Move" ID="{04B469C8-85DB-4A58-9C11-FD7ABED4B4EA}">
+					<ChildrenList>
+						<Action Name="" ID="{516701DB-D1AA-4235-8D53-B5F40700E14B}" ShortID="12948407">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{5046A417-2573-447C-88D6-7605F7FF2C8F}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Stop" ID="{04901BAE-07E5-461E-BB2D-C944012A6964}">
+					<ChildrenList>
+						<Action Name="" ID="{988DC867-62DA-4E81-A81B-F60B6CB58B88}" ShortID="499493509">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{5046A417-2573-447C-88D6-7605F7FF2C8F}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Virage" ID="{0ADADD75-A4DA-4D0A-A4DD-FF3F6A946E99}">
+					<ChildrenList>
+						<Action Name="" ID="{9D41088F-E6CE-4C8D-9DB5-C1B23BCC2800}" ShortID="186177866">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{78554DE0-354C-495A-A4B3-B2567860F9CF}" SchemaVersion="94">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{78554DE0-354C-495A-A4B3-B2567860F9CF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{78554DE0-354C-495A-A4B3-B2567860F9CF}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="TVSideChain" ID="{D0FD085B-ED9F-423D-B3EC-170835EAF9FA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="DistancePiece" ID="{52071E5D-4BA3-4524-8E85-EF96EA0512FB}"/>
+				<GameParameter Name="DistanceTV" ID="{2DA0736A-2591-4085-884B-6771B4291429}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
