@@ -22,10 +22,6 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="ARMOIRE_OUVRE" ID="{744C7235-FB42-4FDA-8C58-4AB2DDEABF75}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Random_Floor" ID="{54DA8B5F-43DE-499E-93E2-61ACD3A2793E}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
 							<Position X="2" Y="1"/>
 						</Module>
@@ -41,7 +37,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="DistanceTV" ID="{2DA0736A-2591-4085-884B-6771B4291429}"/>
-							<Value>29</Value>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
@@ -49,7 +45,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="TVSideChain" ID="{D0FD085B-ED9F-423D-B3EC-170835EAF9FA}"/>
-							<Value>-45.5</Value>
+							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>

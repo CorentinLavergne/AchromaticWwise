@@ -56,13 +56,13 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>-44.94044</XPos>
-																<YPos>0.01838</YPos>
+																<XPos>-46.14907</XPos>
+																<YPos>0.17245</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>SCurve</SegmentShape>
+																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>-35.10971</XPos>
+																<XPos>-40.03058</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>SCurve</SegmentShape>
@@ -78,7 +78,6 @@
 											</RTPCList>
 										</Property>
 									</PropertyList>
-									<ReferenceList/>
 								</Bus>
 							</ChildrenList>
 						</Bus>

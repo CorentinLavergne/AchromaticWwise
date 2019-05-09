@@ -105,6 +105,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_TakeBottle" ID="{6C6BFC75-DD5C-4178-B172-0FF41275276D}">
+					<ChildrenList>
+						<Action Name="" ID="{7A082E68-E864-4481-9B62-F6C635AB6D09}" ShortID="823059017">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PRENDRE" ID="{2A260B44-C5BF-47FD-AFF7-A3D7B3A305F7}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4594CE6B-D668-4BFF-9D92-99C7DAA9AFF1}" ShortID="644953350">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LIQUIDE" ID="{098F7039-70D9-486B-8FA9-B71E2FC11624}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ReleaseBottle" ID="{F84BE0B7-0EF9-40EC-AA93-7CB50EC8CD40}">
+					<ChildrenList>
+						<Action Name="" ID="{E7CE84BC-AFC8-4771-8ACA-5A277A90065C}" ShortID="601476248">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="POSER" ID="{59D0BADF-4B71-4B1D-BCE8-A47BBC3715C7}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6B6DF22F-6F1F-47B2-8092-A382F1005C0B}" ShortID="1049243134">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LIQUIDE" ID="{098F7039-70D9-486B-8FA9-B71E2FC11624}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
