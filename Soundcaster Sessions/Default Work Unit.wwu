@@ -22,22 +22,26 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Ventilateur" ID="{B65D4528-CBEB-4311-9ED5-5E4210ECC369}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Random_Floor" ID="{54DA8B5F-43DE-499E-93E2-61ACD3A2793E}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="PRENDRE" ID="{9C1CD3F6-48C1-4601-AA25-93790C4922AB}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+							<ObjectRef Name="Player_Move" ID="{04B469C8-85DB-4A58-9C11-FD7ABED4B4EA}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="POSER" ID="{1C8ED18D-0139-4FE1-A5D2-688C1A6EE2D6}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+							<ObjectRef Name="Player_Stop" ID="{04901BAE-07E5-461E-BB2D-C944012A6964}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="DistanceTV" ID="{2DA0736A-2591-4085-884B-6771B4291429}"/>
-							<Value>50</Value>
+							<Value>55</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
@@ -84,6 +88,14 @@
 							<Value>75</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Acceleration_Rot_RTPC" ID="{0530DAEA-A922-4A08-A018-98B86269F857}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DistanceVentilateur" ID="{187C8D72-529C-4B9F-9053-6936834C77C9}"/>
+							<Value>87</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
 							<Value>6</Value>
 						</RTPCValue>
@@ -100,7 +112,9 @@
 						<CurrentStateRef Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}"/>
 						<CurrentStateRef Name="Ingame" ID="{CE357E71-FBC9-4B1A-9DF3-8D99479308EC}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Off" ID="{590A1A4C-02B7-423A-A9E8-DBE0C53DA433}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

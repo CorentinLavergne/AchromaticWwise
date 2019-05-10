@@ -24,7 +24,7 @@
 													<PropertyList>
 														<Property Name="AttackTime" Type="Real32" Value="0.05"/>
 														<Property Name="MeterMode" Type="int32" Value="1"/>
-														<Property Name="Min" Type="Real32" Value="-48.2"/>
+														<Property Name="Min" Type="Real32" Value="-46.6"/>
 														<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
 													</PropertyList>
 													<PluginData>
@@ -62,8 +62,8 @@
 																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>-40.03058</XPos>
-																<YPos>-200</YPos>
+																<XPos>-44.32073</XPos>
+																<YPos>-34.96376</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>SCurve</SegmentShape>
 															</Point>
@@ -103,6 +103,19 @@
 								</Reference>
 							</ReferenceList>
 						</Bus>
+						<AuxBus Name="Reverb" ID="{2E146392-D718-4096-BAFF-8D934EC71912}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_RoomVerb_(Custom)" ID="{DD5CCE6C-1C63-44B0-8B20-370FA528BB37}" ShortID="44452220" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="RoomSize" Type="Real32" Value="14"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

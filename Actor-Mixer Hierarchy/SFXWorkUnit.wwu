@@ -1919,550 +1919,14 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
-				<SwitchContainer Name="Footsteps" ID="{5046A417-2573-447C-88D6-7605F7FF2C8F}" ShortID="336837962">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-						</Reference>
-						<Reference Name="DefaultSwitchOrState">
-							<ObjectRef Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}" WorkUnitID="{A03A58CF-762C-466A-800D-B63CA387B0E0}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-						</Reference>
-						<Reference Name="SwitchGroupOrStateGroup">
-							<ObjectRef Name="GroundType" ID="{CAA7E59C-6C82-4A5C-8F07-9F13610F2ECF}" WorkUnitID="{A03A58CF-762C-466A-800D-B63CA387B0E0}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<SwitchContainer Name="Parquet" ID="{002C1E82-D087-4D9C-B3CE-9F820B776DB9}" ShortID="196381188">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<RandomSequenceContainer Name="ParquetNormal" ID="{781B6ACA-000F-4651-885E-2454928F2D6A}" ShortID="890285248">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.58"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="PAS_PARQUET-001" ID="{02DF7568-D3C0-46AE-96C6-F05CBEEF29BB}" ShortID="488352515">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_PARQUET-001" ID="{40A84A6D-4DE2-4F3C-9515-CAF0DEF556E0}" ShortID="955207873">
-													<Language>SFX</Language>
-													<AudioFile>PAS_PARQUET-001.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_PARQUET-001" ID="{40A84A6D-4DE2-4F3C-9515-CAF0DEF556E0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_PARQUET-002" ID="{CC53545B-9AC0-48C0-9D94-F1F93463E911}" ShortID="1072487845">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_PARQUET-002" ID="{BD2E607A-32B4-4E81-B4A1-D6BDD62205F9}" ShortID="442043567">
-													<Language>SFX</Language>
-													<AudioFile>PAS_PARQUET-002.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_PARQUET-002" ID="{BD2E607A-32B4-4E81-B4A1-D6BDD62205F9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_PARQUET-003" ID="{2A6BBF29-385A-4870-B9D7-50E0AF96E3C8}" ShortID="721836952">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_PARQUET-003" ID="{615ED874-0787-4EC2-83EE-C0A036A7C5FD}" ShortID="120859536">
-													<Language>SFX</Language>
-													<AudioFile>PAS_PARQUET-003.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_PARQUET-003" ID="{615ED874-0787-4EC2-83EE-C0A036A7C5FD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_PARQUET-004" ID="{EB34ED12-D20F-4478-BEA9-367485EA3A68}" ShortID="492408270">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_PARQUET-004" ID="{50466EF5-E846-4C67-8494-581337E844AC}" ShortID="709501363">
-													<Language>SFX</Language>
-													<AudioFile>PAS_PARQUET-004.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_PARQUET-004" ID="{50466EF5-E846-4C67-8494-581337E844AC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_PARQUET-005" ID="{F4E2772D-539B-4FF3-A913-082852A8698D}" ShortID="230746031">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_PARQUET-005" ID="{68B4AC42-7503-496C-8ADD-B35BBDA5A10E}" ShortID="358498210">
-													<Language>SFX</Language>
-													<AudioFile>PAS_PARQUET-005.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_PARQUET-005" ID="{68B4AC42-7503-496C-8ADD-B35BBDA5A10E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_PARQUET-006" ID="{907C9A81-C9D6-4268-BC98-E0EDDAEAE7A1}" ShortID="81834366">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_PARQUET-006" ID="{2B5E4434-D4E2-4534-AE28-A2E8A9E4A086}" ShortID="1072999647">
-													<Language>SFX</Language>
-													<AudioFile>PAS_PARQUET-006.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_PARQUET-006" ID="{2B5E4434-D4E2-4534-AE28-A2E8A9E4A086}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_PARQUET-007" ID="{055DB7C5-B117-43D7-A730-A8FC82DAEEBF}" ShortID="841763086">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_PARQUET-007" ID="{3C616497-3F64-4CF3-B2B8-4EACA52277E3}" ShortID="333576624">
-													<Language>SFX</Language>
-													<AudioFile>PAS_PARQUET-007.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_PARQUET-007" ID="{3C616497-3F64-4CF3-B2B8-4EACA52277E3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_PARQUET-008" ID="{72CB6163-722B-4C9E-93F7-CC2BF1D1F6B3}" ShortID="382349192">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_PARQUET-008" ID="{FE2D78F8-0B7F-42C5-A0B2-060DFEE0E132}" ShortID="63054959">
-													<Language>SFX</Language>
-													<AudioFile>PAS_PARQUET-008.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_PARQUET-008" ID="{FE2D78F8-0B7F-42C5-A0B2-060DFEE0E132}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="ParquetVirage" ID="{35CCCE7F-C146-4F6C-9644-A6A68101A067}" ShortID="541307721">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="PAS_VIR_PARQUET-001" ID="{AA75457B-9F99-41C0-9ECF-DE0353B9AD95}" ShortID="294159826">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_VIR_PARQUET-001" ID="{ABCEE2CA-CAE3-4CD1-81B9-0224BCAECBED}" ShortID="758920501">
-													<Language>SFX</Language>
-													<AudioFile>PAS_VIR_PARQUET-001.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_VIR_PARQUET-001" ID="{ABCEE2CA-CAE3-4CD1-81B9-0224BCAECBED}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_VIR_PARQUET-002" ID="{72928762-E11A-4F2D-BCC8-A265A6C8BAA3}" ShortID="418464542">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_VIR_PARQUET-002" ID="{ADE9AB31-6846-4AE9-BEE2-DF165BCD4F57}" ShortID="496174279">
-													<Language>SFX</Language>
-													<AudioFile>PAS_VIR_PARQUET-002.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_VIR_PARQUET-002" ID="{ADE9AB31-6846-4AE9-BEE2-DF165BCD4F57}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_VIR_PARQUET-003" ID="{024FDAC5-4169-4F0C-B45D-B5B6865EC646}" ShortID="357877443">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_VIR_PARQUET-003" ID="{2FDCBCC6-943A-45F6-94AC-992A321F69C1}" ShortID="1028449394">
-													<Language>SFX</Language>
-													<AudioFile>PAS_VIR_PARQUET-003.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_VIR_PARQUET-003" ID="{2FDCBCC6-943A-45F6-94AC-992A321F69C1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="ParquetVirage" ID="{35CCCE7F-C146-4F6C-9644-A6A68101A067}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="ParquetNormal" ID="{781B6ACA-000F-4651-885E-2454928F2D6A}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-							</GroupingInfo>
-						</SwitchContainer>
-						<SwitchContainer Name="Tapis" ID="{1E9CD36E-BE39-4CC7-A1CE-9B79A9EDF8AA}" ShortID="30001823">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<RandomSequenceContainer Name="TapisNormal" ID="{40E279F8-E86E-4F0B-9822-BC3016396DD7}" ShortID="245703171">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.58"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="PAS_TAPIS-001" ID="{8787CE51-DB0C-42C1-9687-BB88A661F1C8}" ShortID="763250280">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_TAPIS-001" ID="{F2A79EAD-26DC-4DC8-8E93-B696436187D7}" ShortID="754932003">
-													<Language>SFX</Language>
-													<AudioFile>PAS_TAPIS-001.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_TAPIS-001" ID="{F2A79EAD-26DC-4DC8-8E93-B696436187D7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_TAPIS-002" ID="{B24BFCEA-E6B8-4F0B-ACC4-63294DB80D92}" ShortID="420741938">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_TAPIS-002" ID="{F203B841-BC51-417B-A3A7-4A65DECA046F}" ShortID="413286709">
-													<Language>SFX</Language>
-													<AudioFile>PAS_TAPIS-002.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_TAPIS-002" ID="{F203B841-BC51-417B-A3A7-4A65DECA046F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_TAPIS-003" ID="{261B4358-404C-4F86-8142-16172DDC92DD}" ShortID="661650380">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_TAPIS-003" ID="{E2B2A876-66C8-4798-A635-A41155A6677C}" ShortID="84516584">
-													<Language>SFX</Language>
-													<AudioFile>PAS_TAPIS-003.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_TAPIS-003" ID="{E2B2A876-66C8-4798-A635-A41155A6677C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_TAPIS-004" ID="{358E2DB2-7418-436C-B0D1-A9E3AB4CA1B8}" ShortID="10531784">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_TAPIS-004" ID="{C5C84ADE-2EB7-4047-8630-CFD25BDABA97}" ShortID="26001599">
-													<Language>SFX</Language>
-													<AudioFile>PAS_TAPIS-004.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_TAPIS-004" ID="{C5C84ADE-2EB7-4047-8630-CFD25BDABA97}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_TAPIS-005" ID="{78C4F040-7EE8-4D29-8D5E-9608D22DF858}" ShortID="1019022501">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_TAPIS-005" ID="{C48B3576-D089-4860-BF51-91DEAA109C46}" ShortID="668488317">
-													<Language>SFX</Language>
-													<AudioFile>PAS_TAPIS-005.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_TAPIS-005" ID="{C48B3576-D089-4860-BF51-91DEAA109C46}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_TAPIS-006" ID="{95B2FE74-EE65-4F7C-B3CD-736AD5FA9032}" ShortID="1039608940">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_TAPIS-006" ID="{B7C18C96-78EB-44DB-A9C6-650ADCEC1C17}" ShortID="197736451">
-													<Language>SFX</Language>
-													<AudioFile>PAS_TAPIS-006.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_TAPIS-006" ID="{B7C18C96-78EB-44DB-A9C6-650ADCEC1C17}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_TAPIS-007" ID="{6CA962D6-E94B-4DC4-BD43-F8F521C12F5F}" ShortID="822246122">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_TAPIS-007" ID="{41D1A790-68E6-44F3-ACC4-2575CF8B688A}" ShortID="223175520">
-													<Language>SFX</Language>
-													<AudioFile>PAS_TAPIS-007.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_TAPIS-007" ID="{41D1A790-68E6-44F3-ACC4-2575CF8B688A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="TapisVirage" ID="{97DEF2E0-4451-4F4B-9A2C-FC3E97A151D7}" ShortID="723701771">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="PAS_VIR_TAPIS-001" ID="{8736B43C-5D65-454A-82EB-E8C129F571E1}" ShortID="270667462">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_VIR_TAPIS-001" ID="{9A810DFF-06F0-4418-A9E5-DBCF5ABDF48B}" ShortID="333321032">
-													<Language>SFX</Language>
-													<AudioFile>PAS_VIR_TAPIS-001.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_VIR_TAPIS-001" ID="{9A810DFF-06F0-4418-A9E5-DBCF5ABDF48B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_VIR_TAPIS-002" ID="{D8A5853C-D16F-483D-8142-A3DCD6178839}" ShortID="201173343">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_VIR_TAPIS-002" ID="{974727DF-A052-4883-9D3E-925FCC2B3F97}" ShortID="678999355">
-													<Language>SFX</Language>
-													<AudioFile>PAS_VIR_TAPIS-002.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_VIR_TAPIS-002" ID="{974727DF-A052-4883-9D3E-925FCC2B3F97}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PAS_VIR_TAPIS-003" ID="{9673178E-17CC-4EF6-AADC-C075CF820FC3}" ShortID="1019446301">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PAS_VIR_TAPIS-003" ID="{A498B4EC-63DE-4D5C-A502-5BDD539C5D67}" ShortID="671581795">
-													<Language>SFX</Language>
-													<AudioFile>PAS_VIR_TAPIS-003.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="PAS_VIR_TAPIS-003" ID="{A498B4EC-63DE-4D5C-A502-5BDD539C5D67}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="TapisVirage" ID="{97DEF2E0-4451-4F4B-9A2C-FC3E97A151D7}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="TapisNormal" ID="{40E279F8-E86E-4F0B-9822-BC3016396DD7}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-							</GroupingInfo>
-						</SwitchContainer>
-					</ChildrenList>
-					<GroupingInfo>
-						<GroupingBehaviorList>
-							<GroupingBehavior>
-								<ItemRef Name="Tapis" ID="{1E9CD36E-BE39-4CC7-A1CE-9B79A9EDF8AA}"/>
-							</GroupingBehavior>
-							<GroupingBehavior>
-								<ItemRef Name="Parquet" ID="{002C1E82-D087-4D9C-B3CE-9F820B776DB9}"/>
-							</GroupingBehavior>
-						</GroupingBehaviorList>
-					</GroupingInfo>
-				</SwitchContainer>
 				<Sound Name="MECA_TIROIR" ID="{07EFDE6C-7377-47D0-9925-123E7A8EFD59}" ShortID="225930335">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
@@ -2482,6 +1946,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="NOTHING" ID="{AFAB7940-DBE3-4E0C-9A74-CE845618F2E2}" ShortID="648580532">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
@@ -2500,13 +1971,32 @@
 						<ActiveSource Name="NOTHING" ID="{1E165A05-FA23-4633-B4C2-8A42398666BB}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="VENTILATEUR" ID="{9551F336-2ABF-4E43-A257-68A82E898D8C}" ShortID="943801071">
+				<RandomSequenceContainer Name="FootstepTrig" ID="{A7AA0BB9-B5C7-4EF7-8AAF-704933F446C7}" ShortID="347447452">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-28</Value>
-							</ValueList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3D5EE90E-0397-4302-9071-4C22A0F1168C}"/>
+								</ModifierInfo>
+							</ModifierList>
 						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.58">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4461DE0D-DAD2-4B52-B6D9-CAFF4B0B671C}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="0.05"/>
+											<Property Name="Min" Type="Real64" Value="-0.05"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -2517,15 +2007,659 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="VENTILATEUR" ID="{C04B9142-58B9-4FC9-98A9-902E06FB454E}" ShortID="311511211">
-							<Language>SFX</Language>
-							<AudioFile>VENTILATEUR.wav</AudioFile>
-						</AudioFileSource>
+						<SwitchContainer Name="Footsteps" ID="{5046A417-2573-447C-88D6-7605F7FF2C8F}" ShortID="336837962">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}" WorkUnitID="{A03A58CF-762C-466A-800D-B63CA387B0E0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="GroundType" ID="{CAA7E59C-6C82-4A5C-8F07-9F13610F2ECF}" WorkUnitID="{A03A58CF-762C-466A-800D-B63CA387B0E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Parquet" ID="{002C1E82-D087-4D9C-B3CE-9F820B776DB9}" ShortID="196381188">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Off" ID="{590A1A4C-02B7-423A-A9E8-DBE0C53DA433}" WorkUnitID="{F2A0D96B-6F9F-4229-B6A3-168F45197355}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Virage_Switch" ID="{FF97561A-2CFA-4505-9650-E970F614EA44}" WorkUnitID="{F2A0D96B-6F9F-4229-B6A3-168F45197355}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="ParquetNormal" ID="{781B6ACA-000F-4651-885E-2454928F2D6A}" ShortID="890285248">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.58"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PAS_PARQUET-001" ID="{02DF7568-D3C0-46AE-96C6-F05CBEEF29BB}" ShortID="488352515">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_PARQUET-001" ID="{40A84A6D-4DE2-4F3C-9515-CAF0DEF556E0}" ShortID="955207873">
+															<Language>SFX</Language>
+															<AudioFile>PAS_PARQUET-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_PARQUET-001" ID="{40A84A6D-4DE2-4F3C-9515-CAF0DEF556E0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_PARQUET-002" ID="{CC53545B-9AC0-48C0-9D94-F1F93463E911}" ShortID="1072487845">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_PARQUET-002" ID="{BD2E607A-32B4-4E81-B4A1-D6BDD62205F9}" ShortID="442043567">
+															<Language>SFX</Language>
+															<AudioFile>PAS_PARQUET-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_PARQUET-002" ID="{BD2E607A-32B4-4E81-B4A1-D6BDD62205F9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_PARQUET-003" ID="{2A6BBF29-385A-4870-B9D7-50E0AF96E3C8}" ShortID="721836952">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_PARQUET-003" ID="{615ED874-0787-4EC2-83EE-C0A036A7C5FD}" ShortID="120859536">
+															<Language>SFX</Language>
+															<AudioFile>PAS_PARQUET-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_PARQUET-003" ID="{615ED874-0787-4EC2-83EE-C0A036A7C5FD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_PARQUET-004" ID="{EB34ED12-D20F-4478-BEA9-367485EA3A68}" ShortID="492408270">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_PARQUET-004" ID="{50466EF5-E846-4C67-8494-581337E844AC}" ShortID="709501363">
+															<Language>SFX</Language>
+															<AudioFile>PAS_PARQUET-004.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_PARQUET-004" ID="{50466EF5-E846-4C67-8494-581337E844AC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_PARQUET-005" ID="{F4E2772D-539B-4FF3-A913-082852A8698D}" ShortID="230746031">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_PARQUET-005" ID="{68B4AC42-7503-496C-8ADD-B35BBDA5A10E}" ShortID="358498210">
+															<Language>SFX</Language>
+															<AudioFile>PAS_PARQUET-005.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_PARQUET-005" ID="{68B4AC42-7503-496C-8ADD-B35BBDA5A10E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_PARQUET-006" ID="{907C9A81-C9D6-4268-BC98-E0EDDAEAE7A1}" ShortID="81834366">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_PARQUET-006" ID="{2B5E4434-D4E2-4534-AE28-A2E8A9E4A086}" ShortID="1072999647">
+															<Language>SFX</Language>
+															<AudioFile>PAS_PARQUET-006.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_PARQUET-006" ID="{2B5E4434-D4E2-4534-AE28-A2E8A9E4A086}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_PARQUET-007" ID="{055DB7C5-B117-43D7-A730-A8FC82DAEEBF}" ShortID="841763086">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_PARQUET-007" ID="{3C616497-3F64-4CF3-B2B8-4EACA52277E3}" ShortID="333576624">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="3.94220890410959E-03"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.94220890410959E-03"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PAS_PARQUET-007.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_PARQUET-007" ID="{3C616497-3F64-4CF3-B2B8-4EACA52277E3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_PARQUET-008" ID="{72CB6163-722B-4C9E-93F7-CC2BF1D1F6B3}" ShortID="382349192">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_PARQUET-008" ID="{FE2D78F8-0B7F-42C5-A0B2-060DFEE0E132}" ShortID="63054959">
+															<Language>SFX</Language>
+															<AudioFile>PAS_PARQUET-008.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_PARQUET-008" ID="{FE2D78F8-0B7F-42C5-A0B2-060DFEE0E132}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="ParquetVirage" ID="{35CCCE7F-C146-4F6C-9644-A6A68101A067}" ShortID="541307721">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.58"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PAS_VIR_PARQUET-001" ID="{AA75457B-9F99-41C0-9ECF-DE0353B9AD95}" ShortID="294159826">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_VIR_PARQUET-001" ID="{ABCEE2CA-CAE3-4CD1-81B9-0224BCAECBED}" ShortID="758920501">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.129595462328767"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PAS_VIR_PARQUET-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_VIR_PARQUET-001" ID="{ABCEE2CA-CAE3-4CD1-81B9-0224BCAECBED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_VIR_PARQUET-002" ID="{72928762-E11A-4F2D-BCC8-A265A6C8BAA3}" ShortID="418464542">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_VIR_PARQUET-002" ID="{ADE9AB31-6846-4AE9-BEE2-DF165BCD4F57}" ShortID="496174279">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="6.78510273972603E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.78510273972603E-02"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PAS_VIR_PARQUET-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_VIR_PARQUET-002" ID="{ADE9AB31-6846-4AE9-BEE2-DF165BCD4F57}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_VIR_PARQUET-003" ID="{024FDAC5-4169-4F0C-B45D-B5B6865EC646}" ShortID="357877443">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_VIR_PARQUET-003" ID="{2FDCBCC6-943A-45F6-94AC-992A321F69C1}" ShortID="1028449394">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.112632705479452"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.112632705479452"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PAS_VIR_PARQUET-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_VIR_PARQUET-003" ID="{2FDCBCC6-943A-45F6-94AC-992A321F69C1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="ParquetVirage" ID="{35CCCE7F-C146-4F6C-9644-A6A68101A067}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="ParquetNormal" ID="{781B6ACA-000F-4651-885E-2454928F2D6A}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="On" ID="{FC63ED03-F385-4ABB-BC2B-45A513B52DF1}"/>
+												<ItemList>
+													<ItemRef Name="ParquetVirage" ID="{35CCCE7F-C146-4F6C-9644-A6A68101A067}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Off" ID="{590A1A4C-02B7-423A-A9E8-DBE0C53DA433}"/>
+												<ItemList>
+													<ItemRef Name="ParquetNormal" ID="{781B6ACA-000F-4651-885E-2454928F2D6A}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Tapis" ID="{1E9CD36E-BE39-4CC7-A1CE-9B79A9EDF8AA}" ShortID="30001823">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Off" ID="{590A1A4C-02B7-423A-A9E8-DBE0C53DA433}" WorkUnitID="{F2A0D96B-6F9F-4229-B6A3-168F45197355}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Virage_Switch" ID="{FF97561A-2CFA-4505-9650-E970F614EA44}" WorkUnitID="{F2A0D96B-6F9F-4229-B6A3-168F45197355}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="TapisNormal" ID="{40E279F8-E86E-4F0B-9822-BC3016396DD7}" ShortID="245703171">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.58"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PAS_TAPIS-001" ID="{8787CE51-DB0C-42C1-9687-BB88A661F1C8}" ShortID="763250280">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_TAPIS-001" ID="{F2A79EAD-26DC-4DC8-8E93-B696436187D7}" ShortID="754932003">
+															<Language>SFX</Language>
+															<AudioFile>PAS_TAPIS-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_TAPIS-001" ID="{F2A79EAD-26DC-4DC8-8E93-B696436187D7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_TAPIS-002" ID="{B24BFCEA-E6B8-4F0B-ACC4-63294DB80D92}" ShortID="420741938">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_TAPIS-002" ID="{F203B841-BC51-417B-A3A7-4A65DECA046F}" ShortID="413286709">
+															<Language>SFX</Language>
+															<AudioFile>PAS_TAPIS-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_TAPIS-002" ID="{F203B841-BC51-417B-A3A7-4A65DECA046F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_TAPIS-003" ID="{261B4358-404C-4F86-8142-16172DDC92DD}" ShortID="661650380">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_TAPIS-003" ID="{E2B2A876-66C8-4798-A635-A41155A6677C}" ShortID="84516584">
+															<Language>SFX</Language>
+															<AudioFile>PAS_TAPIS-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_TAPIS-003" ID="{E2B2A876-66C8-4798-A635-A41155A6677C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_TAPIS-004" ID="{358E2DB2-7418-436C-B0D1-A9E3AB4CA1B8}" ShortID="10531784">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_TAPIS-004" ID="{C5C84ADE-2EB7-4047-8630-CFD25BDABA97}" ShortID="26001599">
+															<Language>SFX</Language>
+															<AudioFile>PAS_TAPIS-004.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_TAPIS-004" ID="{C5C84ADE-2EB7-4047-8630-CFD25BDABA97}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_TAPIS-005" ID="{78C4F040-7EE8-4D29-8D5E-9608D22DF858}" ShortID="1019022501">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_TAPIS-005" ID="{C48B3576-D089-4860-BF51-91DEAA109C46}" ShortID="668488317">
+															<Language>SFX</Language>
+															<AudioFile>PAS_TAPIS-005.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_TAPIS-005" ID="{C48B3576-D089-4860-BF51-91DEAA109C46}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_TAPIS-006" ID="{95B2FE74-EE65-4F7C-B3CD-736AD5FA9032}" ShortID="1039608940">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_TAPIS-006" ID="{B7C18C96-78EB-44DB-A9C6-650ADCEC1C17}" ShortID="197736451">
+															<Language>SFX</Language>
+															<AudioFile>PAS_TAPIS-006.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_TAPIS-006" ID="{B7C18C96-78EB-44DB-A9C6-650ADCEC1C17}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_TAPIS-007" ID="{6CA962D6-E94B-4DC4-BD43-F8F521C12F5F}" ShortID="822246122">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_TAPIS-007" ID="{41D1A790-68E6-44F3-ACC4-2575CF8B688A}" ShortID="223175520">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="2.98052226027397E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.98052226027397E-02"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PAS_TAPIS-007.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_TAPIS-007" ID="{41D1A790-68E6-44F3-ACC4-2575CF8B688A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="TapisVirage" ID="{97DEF2E0-4451-4F4B-9A2C-FC3E97A151D7}" ShortID="723701771">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.58"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PAS_VIR_TAPIS-001" ID="{8736B43C-5D65-454A-82EB-E8C129F571E1}" ShortID="270667462">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_VIR_TAPIS-001" ID="{9A810DFF-06F0-4418-A9E5-DBCF5ABDF48B}" ShortID="333321032">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.202846175799087"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PAS_VIR_TAPIS-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_VIR_TAPIS-001" ID="{9A810DFF-06F0-4418-A9E5-DBCF5ABDF48B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_VIR_TAPIS-002" ID="{D8A5853C-D16F-483D-8142-A3DCD6178839}" ShortID="201173343">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_VIR_TAPIS-002" ID="{974727DF-A052-4883-9D3E-925FCC2B3F97}" ShortID="678999355">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.153759275114155"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PAS_VIR_TAPIS-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_VIR_TAPIS-002" ID="{974727DF-A052-4883-9D3E-925FCC2B3F97}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PAS_VIR_TAPIS-003" ID="{9673178E-17CC-4EF6-AADC-C075CF820FC3}" ShortID="1019446301">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PAS_VIR_TAPIS-003" ID="{A498B4EC-63DE-4D5C-A502-5BDD539C5D67}" ShortID="671581795">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.31687082619863"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PAS_VIR_TAPIS-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PAS_VIR_TAPIS-003" ID="{A498B4EC-63DE-4D5C-A502-5BDD539C5D67}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="TapisVirage" ID="{97DEF2E0-4451-4F4B-9A2C-FC3E97A151D7}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="TapisNormal" ID="{40E279F8-E86E-4F0B-9822-BC3016396DD7}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="On" ID="{FC63ED03-F385-4ABB-BC2B-45A513B52DF1}"/>
+												<ItemList>
+													<ItemRef Name="TapisVirage" ID="{97DEF2E0-4451-4F4B-9A2C-FC3E97A151D7}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Off" ID="{590A1A4C-02B7-423A-A9E8-DBE0C53DA433}"/>
+												<ItemList>
+													<ItemRef Name="TapisNormal" ID="{40E279F8-E86E-4F0B-9822-BC3016396DD7}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Tapis" ID="{1E9CD36E-BE39-4CC7-A1CE-9B79A9EDF8AA}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Parquet" ID="{002C1E82-D087-4D9C-B3CE-9F820B776DB9}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}"/>
+										<ItemList>
+											<ItemRef Name="Parquet" ID="{002C1E82-D087-4D9C-B3CE-9F820B776DB9}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Tapis" ID="{F3F9C785-61A4-423D-B4BC-96092D85E268}"/>
+										<ItemList>
+											<ItemRef Name="Tapis" ID="{1E9CD36E-BE39-4CC7-A1CE-9B79A9EDF8AA}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="VENTILATEUR" ID="{C04B9142-58B9-4FC9-98A9-902E06FB454E}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
