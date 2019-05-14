@@ -443,7 +443,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-15</Value>
+								<Value>-6</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{907366B1-9BA9-4566-AB84-25E42B359CE9}" ShortID="239507738">

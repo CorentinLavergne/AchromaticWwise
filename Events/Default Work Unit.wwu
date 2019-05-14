@@ -30,28 +30,6 @@
 				</Event>
 				<Folder Name="Props" ID="{EBDA0AA0-F061-4B06-8088-FF2B08A1D840}" ShortID="24744841">
 					<ChildrenList>
-						<Event Name="Play_StoreOuvre" ID="{15F33E76-A62E-41AC-BCE5-A9714FEE4D4B}">
-							<ChildrenList>
-								<Action Name="" ID="{B300E819-0AD9-4348-8E20-1206C7E33211}" ShortID="316483944">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="StoreOuvre" ID="{559A3E87-8F2D-4E60-8D4A-34AF22EA632E}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_StoreFerme" ID="{61E7A9AD-7CB0-489B-B500-34AD5882A824}">
-							<ChildrenList>
-								<Action Name="" ID="{7B8551A1-1438-4AA6-AB24-2E141F977DBF}" ShortID="392660718">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="StoreFerme" ID="{3D6B2982-BF8A-4523-AE84-BE0EAC1BEBAD}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Folder Name="Poser" ID="{16F07003-B3B7-4D0C-A81F-98B27DB2C87E}" ShortID="476038357">
 							<ChildrenList>
 								<Event Name="Play_PoserVerre" ID="{351FD360-CAEE-4E50-B45E-B67467861DEA}">
@@ -232,7 +210,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_RandomFloor" ID="{4822F49D-7180-40CE-853C-249324EF4606}"/>
+						<Event Name="Play_RandomFloor" ID="{4822F49D-7180-40CE-853C-249324EF4606}">
+							<ChildrenList>
+								<Action Name="" ID="{3C5C6693-1762-49BD-AF1D-3195567350D4}" ShortID="153479766">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Floor" ID="{54DA8B5F-43DE-499E-93E2-61ACD3A2793E}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="StartMusic" ID="{64A958BC-646A-4331-B894-18FE1E68CBCB}">
 							<ChildrenList>
 								<Action Name="" ID="{5C1D0394-826B-42F3-9C7C-E63C380239B3}" ShortID="1054190350">
@@ -274,6 +262,39 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="NOTHING" ID="{AFAB7940-DBE3-4E0C-9A74-CE845618F2E2}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_StoreFerme" ID="{61E7A9AD-7CB0-489B-B500-34AD5882A824}">
+					<ChildrenList>
+						<Action Name="" ID="{7B8551A1-1438-4AA6-AB24-2E141F977DBF}" ShortID="392660718">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StoreFerme" ID="{3D6B2982-BF8A-4523-AE84-BE0EAC1BEBAD}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_StoreOuvre" ID="{15F33E76-A62E-41AC-BCE5-A9714FEE4D4B}">
+					<ChildrenList>
+						<Action Name="" ID="{B300E819-0AD9-4348-8E20-1206C7E33211}" ShortID="316483944">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StoreOuvre" ID="{559A3E87-8F2D-4E60-8D4A-34AF22EA632E}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Armoire_Ouvrir" ID="{2FD57DCE-AF61-4B41-BCE7-7026FB8E0EA9}">
+					<ChildrenList>
+						<Action Name="" ID="{EDB0F12B-7048-479A-B2C8-4743C4811FB8}" ShortID="407448584">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ARMOIRE_OUVRIR" ID="{F054A15A-817E-44EE-9E00-7518E09F8526}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
