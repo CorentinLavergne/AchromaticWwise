@@ -46,7 +46,6 @@ State	ID	Name	State Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1225552155	DistanceVentilateur			\Default Work Unit\DistanceVentilateur	
 	3898180431	Acceleration_Rot_RTPC			\Default Work Unit\Acceleration_Rot_RTPC	
-	4221508146	DistanceTV			\Default Work Unit\DistanceTV	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	8812298	PRENDRE LIVRE-001	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\PRENDRE LIVRE-001_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\LIVRE\PRENDRE\PRENDRE LIVRE-001		14816
@@ -82,7 +81,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	277922600	PRENDRE BOUTEILLE-008	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\PRENDRE BOUTEILLE-008_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\BOUTEILLE\PRENDRE\PRENDRE BOUTEILLE-008		38464
 	300693394	PRENDRE BOUTEILLE-005	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\PRENDRE BOUTEILLE-005_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\BOUTEILLE\PRENDRE\PRENDRE BOUTEILLE-005		49066
 	309852052	CENDRIER POSER-001	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\CENDRIER POSER-001_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\CENDRIER\POSER\CENDRIER POSER-001		54784
-	311511211	VENTILATEUR	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\VENTILATEUR_AD2D5FDD.wem		\Actor-Mixer Hierarchy\AmbientWorkUnit\VENTILATEUR		5223192
+	311511211	VENTILATEUR	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\VENTILATEUR_AD2D5FDD.wem		\Actor-Mixer Hierarchy\AmbientWorkUnit\VENTILATEUR	REPLACE	5223192
 	314788024	POSER LIVRE-007	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\POSER LIVRE-007_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\LIVRE\POSER\POSER LIVRE-007		70314
 	316580768	CLE POSER-003	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\CLE POSER-003_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\CLE\POSER\CLE POSER-003		38276
 	333321032	PAS_VIR_TAPIS-001	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\PAS_VIR_TAPIS-001_82C4BA9A.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\FootstepTrig\Footsteps\Tapis\TapisVirage\PAS_VIR_TAPIS-001		28778
@@ -136,7 +135,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	754932003	PAS_TAPIS-001	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\PAS_TAPIS-001_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\FootstepTrig\Footsteps\Tapis\TapisNormal\PAS_TAPIS-001		45850
 	755229790	PRENDRE FEUILLES-004	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\PRENDRE FEUILLES-004_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\FEUILLE\PRENDRE\PRENDRE FEUILLES-004		55466
 	758920501	PAS_VIR_PARQUET-001	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\PAS_VIR_PARQUET-001_33C4BA69.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\FootstepTrig\Footsteps\Parquet\ParquetVirage\PAS_VIR_PARQUET-001		25662
-	771304780	LAMPE	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\LAMPE_10C4C929.wem		\Actor-Mixer Hierarchy\AmbientWorkUnit\LAMPE		2430562
+	771304780	LAMPE	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\LAMPE_8FD62B46.wem		\Actor-Mixer Hierarchy\AmbientWorkUnit\LAMPE		2430626
 	775273018	POSER BOUTEILLE-007	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\POSER BOUTEILLE-007_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\BOUTEILLE\POSER\POSER BOUTEILLE-007		45534
 	783153111	POSER LIVRE-001	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\POSER LIVRE-001_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\LIVRE\POSER\POSER LIVRE-001		70144
 	790485113	PRENDRE FEUILLES-006	C:\Users\corentin.lavergne\Documents\ProjetsM1\Achromatic\AchromaticWwise\.cache\Windows\SFX\PRENDRE FEUILLES-006_10C4C929.wem		\Actor-Mixer Hierarchy\SFXWorkUnit\Objects\FEUILLE\PRENDRE\PRENDRE FEUILLES-006		78436

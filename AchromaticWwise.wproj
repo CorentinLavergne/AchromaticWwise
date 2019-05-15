@@ -22,6 +22,11 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Windows">256</Value>
+					</ValueList>
+				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjUzNTgiIG1hc2s9Ik1QTVQxMzk0IiBlbmM9IjAiPjxsaWNl bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAxOS0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9 IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMTktMDctMzEiICAvPjxsaWNlbnNl IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMTktMDctMzEiICAvPjxsaWNlbnNl IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw aXJlcz0iMjAxOS0wNy0zMSIgIC8+PC9wcm9qZWN0Pg==|kD03fyKm4ocOpaxgfuW DC/AlGtfmtpsTIP/l8m4rrBMq42K2kzJu1arSbkL3Ij16xDblIYsFJEKlGwVmVGC WolqlpxzvlbDbfwiovnsBfHeKebbHEz/EPwdSC3WKJeo4ECA2C0FGwRAacD2lQ7b 6dt+GIqB+Te7Qmhdk/8+qWI0DXu3W+zANExIFs/kIyQVvzqtICmobDPjIB1nfBSg a2QYhCdS8vSNMomLyRYVzYa2Ek94OyiT0gTr3DUL42FVKmQkFIGgD0ZUuwHTlIl8 4j5yNLQYekEdVJ7n3LoVcNXkwp3ixV8I8xp70dcDJY+iYRt17wxizGrXyHQYBTDX L9Q== "/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
@@ -51,8 +56,17 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="Windows">-80</Value>
+					</ValueList>
+				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2019.1|Build=6947|VersionName=v2019.1.0|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
@@ -10845,6 +10859,7 @@
 										<XPos>0</XPos>
 										<YPos>0</YPos>
 										<Flags>5</Flags>
+										<SegmentShape>Log3</SegmentShape>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
@@ -10866,6 +10881,7 @@
 										<XPos>0</XPos>
 										<YPos>0</YPos>
 										<Flags>5</Flags>
+										<SegmentShape>Exp3</SegmentShape>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
@@ -10908,6 +10924,7 @@
 										<XPos>0</XPos>
 										<YPos>0</YPos>
 										<Flags>5</Flags>
+										<SegmentShape>Log3</SegmentShape>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
@@ -10929,6 +10946,7 @@
 										<XPos>0</XPos>
 										<YPos>0</YPos>
 										<Flags>5</Flags>
+										<SegmentShape>Exp3</SegmentShape>
 									</Point>
 									<Point>
 										<XPos>100</XPos>

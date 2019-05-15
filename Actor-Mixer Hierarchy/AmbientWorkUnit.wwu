@@ -4,6 +4,13 @@
 		<WorkUnit Name="AmbientWorkUnit" ID="{94315791-350B-40C8-BB1B-CB85633B766A}" PersistMode="Standalone">
 			<ChildrenList>
 				<BlendContainer Name="Ambient" ID="{E5FCCDF0-ED3C-4311-A027-49761387361F}" ShortID="159417748">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
@@ -15,10 +22,9 @@
 					<ChildrenList>
 						<Sound Name="ATMOSPHERE" ID="{AA7C4224-4C34-4500-AAF9-CF871A548B59}" ShortID="916590850">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -30,9 +36,6 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-								</Reference>
-								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb" ID="{2E146392-D718-4096-BAFF-8D934EC71912}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -47,40 +50,10 @@
 						</Sound>
 					</ChildrenList>
 				</BlendContainer>
-				<BlendContainer Name="TV" ID="{A20D31C1-D5FB-404D-AB67-CA7EC1C14D30}" ShortID="441559799">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="TV" ID="{2716B968-13FD-4B4C-8BFC-35FDBC74167C}" ShortID="546451276">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="TV" ID="{A3D03983-58F5-4D99-80F4-F7B045C9753E}" ShortID="429782320">
-									<Language>SFX</Language>
-									<AudioFile>TV.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="TV" ID="{A3D03983-58F5-4D99-80F4-F7B045C9753E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</BlendContainer>
 				<RandomSequenceContainer Name="Random_Floor" ID="{54DA8B5F-43DE-499E-93E2-61ACD3A2793E}" ShortID="820778186">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 						<Property Name="Volume" Type="Real64">
@@ -276,81 +249,13 @@
 				</RandomSequenceContainer>
 				<BlendContainer Name="TV_Complex" ID="{344FE41F-3601-458B-8949-5A15AB0C01FC}" ShortID="796927258">
 					<PropertyList>
-						<Property Name="Lowpass" Type="int16">
-							<RTPCList>
-								<RTPC Name="" ID="{E6AEED35-30B0-483F-9D41-AB27745E2A21}" ShortID="821589097">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="DistanceTV" ID="{2DA0736A-2591-4085-884B-6771B4291429}" WorkUnitID="{78554DE0-354C-495A-A4B3-B2567860F9CF}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{0FAF1783-4CF5-442F-8858-C4EE596B45C2}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="65537"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-100</YPos>
-												<Flags>5</Flags>
-												<SegmentShape>Exp3</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>0</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<RTPCList>
-								<RTPC Name="" ID="{DE78718F-C73B-4C62-A875-5D957C16A8A0}" ShortID="227788408">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="DistanceTV" ID="{2DA0736A-2591-4085-884B-6771B4291429}" WorkUnitID="{78554DE0-354C-495A-A4B3-B2567860F9CF}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{1DBFA364-D339-4433-AF24-B932189A9D3B}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0.06812</YPos>
-												<Flags>5</Flags>
-												<SegmentShape>Log3</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>7.7325</XPos>
-												<YPos>-4.89286</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>44.6186</XPos>
-												<YPos>-14.18657</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>57.78474</XPos>
-												<YPos>-200</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>-200</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="79"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="TV_Attenuation" ID="{9508F5CD-B640-4E49-A785-52AF2B6044C9}" WorkUnitID="{EDF5638A-ECA5-490A-845E-E799E3843FE6}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
 						</Reference>
@@ -414,13 +319,14 @@
 				</BlendContainer>
 				<Sound Name="LAMPE" ID="{87E31034-DFC8-4CCD-8B10-54E88C324691}" ShortID="423913071">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-13</Value>
-							</ValueList>
-						</Property>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="65"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Lampe_Attenuation" ID="{97122755-5356-4F97-B643-8E9102033D8F}" WorkUnitID="{EDF5638A-ECA5-490A-845E-E799E3843FE6}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
 						</Reference>
@@ -430,6 +336,12 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="LAMPE" ID="{1C4E8626-C128-4736-A0EC-74FC84FE775E}" ShortID="771304780">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1.5"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.520226455479452"/>
+								<Property Name="LoopEnd" Type="Real64" Value="24.710756635274"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>LAMPE.wav</AudioFile>
 						</AudioFileSource>
@@ -439,11 +351,12 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="VENTILATEUR" ID="{9551F336-2ABF-4E43-A257-68A82E898D8C}" ShortID="943801071">
+					<Comment>REPLACE</Comment>
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>12</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{907366B1-9BA9-4566-AB84-25E42B359CE9}" ShortID="239507738">
@@ -481,6 +394,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ventilateur_Attenuation" ID="{262991D6-7F53-467B-8763-5F27C220612D}" WorkUnitID="{EDF5638A-ECA5-490A-845E-E799E3843FE6}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
 						</Reference>

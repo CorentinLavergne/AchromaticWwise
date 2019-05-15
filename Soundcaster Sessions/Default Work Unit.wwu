@@ -40,10 +40,6 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="DistanceTV" ID="{2DA0736A-2591-4085-884B-6771B4291429}"/>
-							<Value>55</Value>
-						</RTPCValue>
-						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
 							<Value>6</Value>
 						</RTPCValue>
