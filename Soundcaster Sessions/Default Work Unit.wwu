@@ -6,10 +6,6 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{2B6EF32F-EF67-4B17-A30F-808EF008B6C7}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="MusicSwitch" ID="{FDBCAB6C-BDB5-4A0D-A394-C313F31FD08F}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="TV_EMIT" ID="{FD7601B0-AA15-4DFC-AB2C-880A3D5691DB}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
 							<Position X="0" Y="1"/>
 						</Module>
@@ -30,12 +26,16 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="MusicSwitch" ID="{FDBCAB6C-BDB5-4A0D-A394-C313F31FD08F}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Player_Move" ID="{04B469C8-85DB-4A58-9C11-FD7ABED4B4EA}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
-							<Position X="3" Y="0"/>
+							<Position X="4" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Player_Stop" ID="{04901BAE-07E5-461E-BB2D-C944012A6964}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
-							<Position X="3" Y="1"/>
+							<Position X="4" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

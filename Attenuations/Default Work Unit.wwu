@@ -123,14 +123,14 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>0.8464</XPos>
-											<YPos>-3.94902</YPos>
+											<XPos>1.22257</XPos>
+											<YPos>-9.24226</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>19.15361</XPos>
-											<YPos>-18.13726</YPos>
+											<XPos>18.93417</XPos>
+											<YPos>-19.82282</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -176,7 +176,7 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-2.73798</YPos>
+											<YPos>-5.92414</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>InvertedSCurve</SegmentShape>
 										</Point>
@@ -210,6 +210,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="Ventilateur_Attenuation" ID="{262991D6-7F53-467B-8763-5F27C220612D}" ShortID="598337445">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="10"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -222,9 +225,15 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>6.6301</XPos>
+											<YPos>-2.17912</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>10</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
