@@ -254,6 +254,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_TV" ID="{CA19938D-DE43-4305-9ADC-CA2FAAEBC17D}">
+							<ChildrenList>
+								<Action Name="" ID="{60691AC7-6201-4251-A72E-D589A21F8681}" ShortID="169326967">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TV_Complex" ID="{344FE41F-3601-458B-8949-5A15AB0C01FC}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Nothing" ID="{02CF34C4-0766-496B-94E5-CE82D34CE9AE}">

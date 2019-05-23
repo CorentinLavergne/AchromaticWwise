@@ -11,6 +11,7 @@
 						<ObjectRef Name="Play_PoserBouteille" ID="{F84BE0B7-0EF9-40EC-AA93-7CB50EC8CD40}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PrendreBouteille" ID="{6C6BFC75-DD5C-4178-B172-0FF41275276D}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_StoreOuvre" ID="{15F33E76-A62E-41AC-BCE5-A9714FEE4D4B}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_TV" ID="{CA19938D-DE43-4305-9ADC-CA2FAAEBC17D}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ventilateur" ID="{B65D4528-CBEB-4311-9ED5-5E4210ECC369}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StartMusic" ID="{64A958BC-646A-4331-B894-18FE1E68CBCB}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PoserLivre" ID="{45F16D55-80E7-4446-BDCB-D463F1FDFF62}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
