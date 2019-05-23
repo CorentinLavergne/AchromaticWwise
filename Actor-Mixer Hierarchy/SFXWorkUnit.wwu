@@ -2633,6 +2633,23 @@
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GroundType" ID="{CAA7E59C-6C82-4A5C-8F07-9F13610F2ECF}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Tapis" ID="{F3F9C785-61A4-423D-B4BC-96092D85E268}"/>
+										<CustomState Name="" ID="{56BB3841-7646-4CEB-9724-E55FD474DFA4}" ShortID="765572680"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}"/>
+										<CustomState Name="" ID="{71C8A8F7-0C9F-4641-8F76-19924DA4D548}" ShortID="11435583"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
@@ -2643,6 +2660,12 @@
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="None" ID="{E073E90D-69AB-4837-80D3-A059323FFE45}"/>
+										<ItemList>
+											<ItemRef Name="Parquet" ID="{002C1E82-D087-4D9C-B3CE-9F820B776DB9}"/>
+										</ItemList>
+									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}"/>
 										<ItemList>
